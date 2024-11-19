@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-# Step 1: Load the data from CSV
+# Step 1: Load the data from CSV.
 df = pd.read_csv('route16.csv')
 
 # Step 2: Convert 'Door Open Time' to datetime format
